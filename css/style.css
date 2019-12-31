@@ -825,6 +825,7 @@ ul {
 /* CSS FOOTER */
 .footer-container {
   width: 100vw;
+  height: auto;
   position: relative;
   color: #777;
   background-color: #f7f8fa;
@@ -844,5 +845,7 @@ ul {
   mix-blend-mode: overlay;
 }
 .footer-title {
+  position: relative;
+  top: -32vh;
 }
 /* END FOOTER */
